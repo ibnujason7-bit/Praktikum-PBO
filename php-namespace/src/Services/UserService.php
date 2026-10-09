@@ -11,6 +11,6 @@ class UserService {
 
     public function displayUser(User $user): string {
         return "Nama: " . $user->getName()
-            . " | Email: " . $user->getEmail();
+            . "<br>Email: " . $user->getEmail();
     }
 }
